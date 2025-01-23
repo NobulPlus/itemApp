@@ -20,7 +20,7 @@ This project is a full-stack web application that implements user authentication
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository.git
+   git clone https://github.com/NobulPlus/itemApp.git
 
 *Prerequisites*
 Ensure you have the following installed on your machine:
