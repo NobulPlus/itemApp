@@ -1,0 +1,57 @@
+/* Item List Container */
+.item-list-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: #eef2f7;
+}
+
+li .item-name {
+    font-weight: bolder;
+    color: #333;
+}
+
+li .item-description {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .item-list-container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
